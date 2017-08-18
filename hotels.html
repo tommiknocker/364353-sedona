@@ -9,7 +9,7 @@
  <div class="container">
 	<header class="main-header">
 		<nav class="main-navigation">
-		<a class ="main-logo" href="index.html"><img src="http://placehold.it/150x100" width="100" height="100" alt="Логотип City of Sedona"></a>
+		<a class="main-logo" href="index.html"><img src="http://placehold.it/150x100" width="100" height="100" alt="Логотип City of Sedona"></a>
 			<ul class="main-list">
 				<li class="main-item"><a class="main-link" href="#">Информация</a></li>
 				<li class="main-item"><a class="main-link" href="#">Фото и видео</a></li>
@@ -22,9 +22,9 @@
 
 	<main> 
 		<section class="filter">
-
-			<section class="filter-infra">
-				<h3 class="header-infra">Инфраструктура:</h3>
+		  <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
+			<fieldset class="filter-infra">
+				<legend class="header-infra">Инфраструктура:</legend>
 					<div class="box-infra">
 						<input type="checkbox" name="swim" id="water" checked>
 							<label for="water">Бассейн</label>
@@ -37,10 +37,10 @@
 						<input type="checkbox" name="Wi-fi" id="internet">
 							<label for="internet">Wi-fi</label>
 					</div>
-			</section>
+			</fieldset>
 
-			<section class="filter-type">
-				<h3 class="header-type">Тип жилья:</h3>
+			<fieldset class="filter-type">
+				<legend class="header-type">Тип жилья:</legend>
 					<div class="box-type">
 						<input type="checkbox" checked id="hotel">
 							<label for="hotel">Гостиница</label>
@@ -53,18 +53,19 @@
 						<input type="checkbox" checked id="apart">
 							<label for="apart">Апартаменты</label>
 					</div>
-				
-			</section>
+			</fieldset>
 
 
-			<section class="filter-price">
-				<h3 class="price-header">Стоимость в сутки(р):</h3>
-					<label class="price-from">
-						<input type="text" value="0" name="from">
-					</label>
-					<label class="price-to">
-						<input type="text" value="3000" name="to">
-					</label>
+			<fieldset class="filter-price">
+				<legend class="price-header">Стоимость в сутки(р):</legend>
+					<div class="price-choice">
+						<label class="price-from">От
+							<input type="text" value="0" name="from">
+						</label>
+						<label class="price-to">До
+							<input type="text" value="3000" name="to">
+						</label>
+					</div>
 
 					<div class="range-controls">
   						<div class="scale">
@@ -74,7 +75,8 @@
   						 <div class="toggle toggle-max"></div>
 					</div>
 					<a class="show-price" href="#">Показать</a>
-			</section>
+			</fieldset>
+		 </form>
 
 		</section>
 
@@ -82,19 +84,19 @@
 			<h3 class="found-amount">Найдено:3</h3>
 				<p class="sort">Сортировка</p>
 				<ul class="sort-list">
-					<li class="sort-item">По цене
-						<a class="sort-link" href="#"></a>
+					<li class="sort-item">
+						<a class="sort-link" href="#">По цене</a>
 					</li>
-					<li class="sort-item">По типу
-						<a class="sort-link" href="#"></a>
+					<li class="sort-item">
+						<a class="sort-link" href="#">По типу</a>
 					</li>
-					<li class="sort-item">По рейтингу
-						<a class="sort-link" href="#"></a>
+					<li class="sort-item">
+						<a class="sort-link" href="#">По рейтингу</a>
 					</li>
 				</ul>
 			<div class="arrows">
-				<a class="arrows-asc"></a>
-				<a class="arrows-desc"></a>
+				<a class="arrows-asc" href="#"></a>
+				<a class="arrows-desc" href="#"></a>
 			</div>
 		</section>
 
@@ -102,19 +104,17 @@
 			
 			<article class="hotels-card-unit">
 
-				<section class="hotels-card-image">
 					<img class="hotels-card-pic" src="http://placehold.it/150x100" width="100" height="100" alt="Amara Resort">
-				</section>
 
 				<div class="hotels-card-description">
 					<h2 class="hotels-card-name">Amara Resort & SPA</h2>
 						<div class="type-more"> 
 							<p class="hotels-card-type">Гостиница</p>
-							<a class="hotels-card-more">Подробнее</a>
+							<a class="hotels-card-more" href="#">Подробнее</a>
 						</div>
 						<div class="price-book"> 
 							<p class="hotels-card-price"> От 4000 р.</p>
-							<a class="hotels-card-book">Забронировать</a>
+							<a class="hotels-card-book" href="#">Забронировать</a>
 						</div>
 				</div>
 				<div class="rate">
@@ -129,19 +129,17 @@
 			</article>
 
 			<article class="hotels-card-unit">
-				<section class="hotels-card-image">
 					<img class="hotels-card-pic" src="http://placehold.it/150x100" width="100" height="100" alt="Desert Quail Inn">
-				</section>
 
 				<div class="hotels-card-description">
 					<h2 class="hotels-card-name">Desert Quail Inn</h2>
 						<div class="type-more">
 							<p class="hotels-card-type">Мотель</p>
-							<a class="hotels-card-more">Подробнее</a>
+							<a class="hotels-card-more" href="#">Подробнее</a>
 						</div>
 						<div class="price-book"> 
 							<p class="hotels-card-price">От 3000 р.</p>
-							<a class="hotels-card-book">Забронировать</a>
+							<a class="hotels-card-book" href="#">Забронировать</a>
 						</div>
 				</div>
 				<div class="rate">
@@ -156,21 +154,17 @@
 			</article>
 
 			<article class="hotels-card-unit">
-
-				<section class="hotels-card-image">
-					<img class="hotels-card-pic" src="http://placehold.it/150x100"
+				<img class="hotels-card-pic" src="http://placehold.it/150x100"
 					width="100" height="100" alt="Villas at Poco Diablo">
-				</section>
-
 					<div class="hotels-card-description">
 					<h2 class="hotels-card-name">Villas at Poco Diablo</h2>
 						<div class="type-more">
 							<p class="hotels-card-type">Апартаменты</p>
-							<a class="hotels-card-more">Подробнее</a>
+							<a class="hotels-card-more" href="#">Подробнее</a>
 						</div>
 						<div class="price-book"> 
 							<p class="hotels-card-price">От 2000 р.</p>
-							<a class="hotels-card-book">Забронировать</a>
+							<a class="hotels-card-book" href="#">Забронировать</a>
 						</div>
 					</div>
 					<div class="rate">
