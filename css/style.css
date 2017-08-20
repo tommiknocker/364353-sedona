@@ -1,0 +1,29 @@
+body 
+		{font-size: 14px;
+	 	 line-height: 21px;
+	 	 color:#333333;
+	 	 font-weight: normal;
+	 	 font-family: "PT Sans", "Arial";
+	 	 text-transform: uppercase;}
+				
+.major-header	
+				{font-size: 21px;
+	 	 		line-height: 26px;}
+	 	
+.regular-header
+				{font-size: 21px;
+	 	 		line-height: 21px;}
+
+
+.regular-header-white
+					{font-size: 21px;
+	 	 			line-height: 21px;
+	 	 			 color:#ffffff;}
+
+.search-header		{font-size: 30px;
+	 				 line-height: 36px;}
+
+
+
+
+
