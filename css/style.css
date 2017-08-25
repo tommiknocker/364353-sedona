@@ -1,35 +1,163 @@
 body {
-	font-size: 14px;
-	line-height: 21px;
-	color:#333333;
-	font-weight: normal;
-	font-family: "PT Sans", "Arial";
-	text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 21px;
+  color:#333333;
+  font-weight: normal;
+  font-family: "PT Sans", "Arial";
+  text-transform: uppercase;
+  background-color: #f2f2f2;
 }
-					
-.major-header {
-	font-size: 21px;
-	line-height: 26px;
+
+a {
+  text-decoration: none;
+}
+
+.main-list,
+.sort-list,
+.footer-social {
+  list-style: none;
+}
+
+.main-list a,
+.main-footer a,
+.filter-price a,
+.hotels-card-unit a {
+  color: #000000;
+ }
+ 
+.filter a,
+.hotels-card-description a {
+	color: #ffffff;
+}
+
+.sort-item a{
+   color:#81b3d2;
+}
+
+.first-wrap,
+.second-wrap, 
+.filter {
+  color: #ffffff;
+}
+
+.main-navigation {
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;  
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+.major-header,
+.button,
+.main-footer>a
+ {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
 }
 	 	
 .regular-header {
-	font-size: 21px;
-	line-height: 21px;
+  font-size: 21px;
+  line-height: 21px;
 }
 
-
 .regular-header-white {
-	font-size: 21px;
-	line-height: 21px;
-	color:#ffffff;
+  font-size: 21px;
+  line-height: 21px;
+  color:#ffffff;
 }
 
 .search-header {
-	font-size: 30px;
-	line-height: 36px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.reason-third-fifth {
+  background-color: #f2f2f2;
+}
+
+.reason-first,
+.reason-second {
+  background-color: #81b3d2;
+}
+
+.form {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.button {
+  font-family: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #766357;
+  border:none;
+  outline:none;
+}
+
+.button:hover, 
+.button:focus {
+  background-color: #604e43;
+}
+
+.button:active {
+  color: #928a85;
+  background-color: #503e33;  
+}
+
+.search-item input {
+  font:inherit;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border:none;
+ }
+
+.search-item input:hover {
+  background-color: #ebebeb;
+}
+.search-item input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  outline:none;
+}
+
+/* + и -  не поняла как их стилизовать*/
+
+.find {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+  border: none;
+ }
+
+ .find:hover {
+ 	background-color: #669ec0;
+ }
+
+ .find:active {
+  color:#94b9d2;
+
+  background-color:#5496bd;
+}
+
+.filter fieldset {
+  border:none;
 }
 
 
+
+/*пока все*/
 
 
 
