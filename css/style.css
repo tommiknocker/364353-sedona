@@ -5,7 +5,7 @@ body {
   line-height: 21px;
   color:#333333;
   font-weight: normal;
-  font-family: "PT Sans", "Arial";
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   background-color: #f2f2f2;
 }
@@ -26,14 +26,30 @@ a {
 .hotels-card-unit a {
   color: #000000;
  }
+
+ .main-list a:hover {
+   color: #81b3d2;
+}
+
+ .main-list a:focus,
+ .main-list a:hover {
+   color: #81b3d2;
+   outline: none;
+}
+
+ .main-list a:active {
+   color: #000000;
+   opacity: 0.3;
+}
  
 .filter a,
-.hotels-card-description a {
+.type-more a,
+.price-book a {
 	color: #ffffff;
 }
 
-.sort-item a{
-   color:#81b3d2;
+.item-active a{
+  color: #766357;
 }
 
 .first-wrap,
@@ -43,6 +59,7 @@ a {
 }
 
 .main-navigation {
+  font-size: 14px;
   line-height: 26px;
   color: #000000;
   font-weight: bold;
@@ -55,7 +72,7 @@ a {
 
 .major-header,
 .button,
-.main-footer>a
+.main-footer > a
  {
   font-size: 21px;
   line-height: 26px;
@@ -94,7 +111,7 @@ a {
 }
 
 .button {
-  font-family: inherit;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
@@ -116,7 +133,9 @@ a {
 }
 
 .search-item input {
-  font:inherit;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
   text-transform: uppercase;
 
   background-color: #f2f2f2;
@@ -132,7 +151,7 @@ a {
   outline:none;
 }
 
-/* + и -  не поняла как их стилизовать*/
+/* + и - */
 
 .find {
   color: #ffffff;
@@ -142,22 +161,102 @@ a {
  }
 
  .find:hover {
- 	background-color: #669ec0;
+   background-color: #669ec0;
  }
 
  .find:active {
-  color:#94b9d2;
+  color:#94b9d2;}
 
-  background-color:#5496bd;
+.filter {
+	background-image: url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+/* если ставлю 100% ширины без высоты, кнопка "показать" не 
+видна на белом фоне, по ТЗ 100% ширины нужно, потом уберу, ок?*/
 
 .filter fieldset {
   border:none;
 }
 
+.price-choice input {
+  color: #ffffff;
 
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
 
-/*пока все*/
+.sort-item a{
+  font-size: 12px;
+  line-height: 18px;
+  color:#000000;
+  opacity: 0.3;
+  outline: none;
+}
+
+.sort-item a:hover {
+   color:#81b3d2;
+   border-bottom: 1px dotted #81b3d2; 
+   opacity: 1; 
+}
+
+.sort-item a:active {
+   color: #000000;
+
+   border: none;
+}
+
+.sort-link-active a {
+  color: #81b3d2;
+  opacity: 1;
+}
+
+.hotels-card-name a:hover {
+  color: #81b3d2;
+}
+
+.hotels-card-name a:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.type-more a {
+  background-color:#81b3d2;}
+
+.type-more a:hover {
+  background-color:#669ec0;
+}
+
+.type-more a:active {
+  color: #91b7d1;
+
+  background-color:#5496bd;}
+
+.price-book a {
+  background-color:#766357; 
+}
+
+.price-book a:hover {
+  background-color:#604e43;
+}
+
+.price-book a:active {
+  color: #928a85;
+
+  background-color:#503e33;
+}
+
+.show a {
+  border: 2px solid #ffffff;
+  outline: none;
+}
+
+.show a:hover {
+  color: #000000;
+  background-color: #ffffff;
+  outline: none;
+}
+
 
 
 
