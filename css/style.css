@@ -14,6 +14,19 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  position: relative;
+}
+.main-logo {
+  position: absolute;
+  left: 550px;
+}
+
 .main-list,
 .sort-list,
 .footer-social {
@@ -24,8 +37,6 @@ a {
   display: flex;
   justify-content: space-around;
 }
-
-
 
 .main-list a,
 .main-footer a,
@@ -102,9 +113,15 @@ a {
   line-height: 36px;
 }
 
+.reasons {
+  text-align: center;
+}
+
 .reason-first{
   display: flex;
   justify-content: space-between;
+
+  text-align: center;
 }
 
 .reason-second {
@@ -112,11 +129,14 @@ a {
   flex-direction: row-reverse;
   justify-content: space-between;
 
+  text-align: center;
 }
 
 .reason-first-list {
   display: flex;
   justify-content: space-around;
+
+  text-align: center;
 }
 
 .reason-first,
@@ -127,9 +147,14 @@ a {
 .reason-third-fifth {
   display: flex;
   justify-content: space-around;
+
+  text-align: center;
   background-color: #f2f2f2;
 }
 
+.search-hotels {
+  text-align: center;
+}
 .form {
   display: flex;
   justify-content: center;
@@ -138,8 +163,12 @@ a {
   font-weight: bold;
 }
 
-.search-hotels {
-  
+.search-item {
+  text-align: center;
+}
+
+.search-adult-child {
+  display:flex;
 }
 
 .button {
@@ -186,6 +215,9 @@ a {
 /* + и - */
 
 .find {
+  display: block;
+  margin: 0 auto;
+
   color: #ffffff;
 
   background-color: #81b3d2;
@@ -200,15 +232,27 @@ a {
   color:#94b9d2;}
 
 .filter {
-	background-image: url("../img/filter-background.jpg");
+  background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
-/* если ставлю 100% ширины без высоты, кнопка "показать" не 
-видна на белом фоне, по ТЗ 100% ширины нужно, потом уберу, ок?*/
+
+.filter-form {
+  display: flex;
+  justify-content: space-around;
+}
 
 .filter fieldset {
   border:none;
+}
+.filter legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.show {
+  text-align: center;
+
 }
 
 .price-choice input {
@@ -218,6 +262,22 @@ a {
   border: 2px solid #ffffff;
 }
 
+.found {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sort-list {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+}
+
+.sort {
+  font-size: 12px;
+  line-height: 18px;
+}
 .sort-item a{
   font-size: 12px;
   line-height: 18px;
@@ -247,13 +307,26 @@ a {
   color: #81b3d2;
 }
 
+.hotels-card-unit {
+  display: flex;  
+} 
+.card-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hotel-wrap {
+  display: flex;
+}
+
 .hotels-card-name a:active {
   color: #000000;
   opacity: 0.3;
 }
 
 .type-more a {
-  background-color:#81b3d2;}
+  background-color:#81b3d2;
+}
 
 .type-more a:hover {
   background-color:#669ec0;
@@ -262,7 +335,8 @@ a {
 .type-more a:active {
   color: #91b7d1;
 
-  background-color:#5496bd;}
+  background-color:#5496bd;
+}
 
 .price-book a {
   background-color:#766357; 
@@ -289,10 +363,18 @@ a {
   outline: none;
 }
 
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
 .footer-social {
   display: flex;
   justify-content: space-around;
- 
+
+  width: 200px;
+  margin: 0;
+  padding: 0;
 }
 
 
