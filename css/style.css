@@ -34,9 +34,18 @@ a {
 }
 
 .main-list {
+  padding:0;
+  margin: 0;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around; ;
 }
+
+.main-list a {
+  display: block;
+  
+  padding: 15px;
+  }
 
 .main-list a,
 .main-footer a,
@@ -59,7 +68,16 @@ a {
    color: #000000;
    opacity: 0.3;
 }
- 
+
+.hero-section {
+  min-width:1200px;
+  min-height:564px;
+  background-image: url("../img/welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
 .filter a,
 .type-more a,
 .price-book a {
@@ -155,6 +173,7 @@ a {
 .search-hotels {
   text-align: center;
 }
+
 .form {
   display: flex;
   justify-content: center;
@@ -206,6 +225,7 @@ a {
 .search-item input:hover {
   background-color: #ebebeb;
 }
+
 .search-item input:focus {
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
@@ -222,16 +242,17 @@ a {
 
   background-color: #81b3d2;
   border: none;
- }
+}
 
  .find:hover {
    background-color: #669ec0;
  }
 
- .find:active {
+.find:active {
   color:#94b9d2;}
 
 .filter {
+  
   background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -239,12 +260,32 @@ a {
 
 .filter-form {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; 
+}
+
+.filter-price {
+  width:330px;
+}
+
+.price-header {
+  margin-bottom:8px;
+}
+
+.price-choice {
+  height: 37px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-choice label {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .filter fieldset {
   border:none;
 }
+
 .filter legend {
   font-size: 16px;
   font-weight: bold;
@@ -252,14 +293,13 @@ a {
 
 .show {
   text-align: center;
-
 }
 
 .price-choice input {
   color: #ffffff;
 
   background-color: transparent;
-  border: 2px solid #ffffff;
+  border: none;
 }
 
 .found {
@@ -310,10 +350,6 @@ a {
 .hotels-card-unit {
   display: flex;  
 } 
-.card-wrap {
-  display: flex;
-  justify-content: space-around;
-}
 
 .hotel-wrap {
   display: flex;
