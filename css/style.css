@@ -123,6 +123,7 @@ a {
 
 .container {
   background-color: #ffffff;
+  box-shadow: ;
 }
 
 .major-header,
@@ -248,11 +249,16 @@ a {
 
 .search-hotels {
   text-align: center;
+  margin-top: 50px;
 }
+
+.search-hotels p { 
+  margin: 35px 430px;}
 
 .form {
   display: flex;
   justify-content: center;
+  margin-top:45px;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
@@ -267,6 +273,7 @@ a {
 }
 
 .button {
+  padding: 30px 140px;
   font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   color: #ffffff;
@@ -289,7 +296,7 @@ a {
 }
 
 .search-item input {
-  padding:0px;
+  padding: 0px;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
@@ -314,7 +321,12 @@ a {
 .find {
   display: block;
   margin: 0 auto;
-
+  padding: 16px 195px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
   color: #ffffff;
 
   background-color: #81b3d2;
@@ -339,12 +351,27 @@ a {
   justify-content: space-around; 
 }
 
+.filter fieldset {
+  margin-top: 28px;
+  border:none;
+}
+
+.filter legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.box-infra input,
+.box-type input {
+  display: none;
+}
+
 .filter-price {
   width:330px;
 }
 
 .price-header {
-  margin-bottom:8px;
+  margin-bottom: 6px;
 }
 
 .price-choice {
@@ -357,11 +384,19 @@ a {
 .price-choice label {
   display: inline-block;
   vertical-align: top;
+  line-height: 37px;
+
+  cursor: pointer;
 }
 
 .price-choice input {
   width: 50px;
   margin: 0;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 .price-choice .price-from,
@@ -370,35 +405,23 @@ a {
   padding-left:65px;
 }
 
-
-.filter fieldset {
-  border:none;
-}
-
-.filter legend {
-  font-size: 16px;
-  font-weight: bold;
-}
-
 .show {
   text-align: center;
 }
 
-.price-choice input {
-  color: #ffffff;
-
-  background-color: transparent;
-  border: none;
+.show-price {
+  padding: 8px 35px;
 }
 
 .found {
   display: flex;
   justify-content: space-around;
+  min-height: 85px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .sort-list {
   display: flex;
-
   margin: 0;
   padding: 0;
 }
@@ -491,6 +514,8 @@ a {
 .main-footer {
   display: flex;
   justify-content: space-around;
+  min-height: 120px;
+  margin-bottom: 36px;
 }
 
 .footer-social {
@@ -501,6 +526,21 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.visually-hidden {
+  display: none;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+
 
 
 
