@@ -320,8 +320,26 @@ span[class$="number"] {
   margin: 0 0 30px 0;
 }
 
-.search-adult-child .search-item {
+.calendar {
+  position: absolute;
+  background-color: transparent;
+  top: 7px;
+  left: 424px;
+  border: none;
+  outline:none;
+}
+
+.calendar:hover path {
+  fill: #000000;
+}
+
+.calendar:active path {
+  fill: #81b3d2;
+}
+
+.search-adult-child {
   width: 50%;
+  margin-bottom: 25px;
 }
 
 .search-item input { 
@@ -334,7 +352,7 @@ span[class$="number"] {
   border:none;
  }
 
- .search-item input:hover {
+.search-item input:hover {
   background-color: #ebebeb;
 }
 
@@ -346,31 +364,52 @@ span[class$="number"] {
 
 .search-item > input {
   min-width: 300px;
-  padding: 6px 0 6px 13px;
+  padding: 6px 35px 6px 13px;
 }
 
 .search-item label {
-  margin: 0 25px 0 0;
+  margin: 0 22px 0 3px;
   padding: 0;
  }
 
+.grownups > label {
+  margin: 0 46px 0px 0px;
+}
+
+.baby > label {
+  margin: 0 32px 0 54px;
+}
+
 .search-button {
   font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 26px;
   font-weight: bold;
   vertical-align: middle;
   padding: 5px 10px;
   border: none;
+  outline:none;
   background-color: #f2f2f2;
   color: #a9a9a9;
+}
+
+.minus {
+  font-size: 17px;
+}
+
+.search-button:hover {
+  color: #000000;
+}
+
+.search-button:active {
+  color: #81b3d2;
 }
 
 .buttons input {
   vertical-align: middle;
   text-align: center;
   width: 42px;
-  padding: 0 0 0 0;
+  padding: 0;
 }
 
 .buttons {
