@@ -439,7 +439,6 @@ span[class$="number"] {
 }
 
 .filter {
-  min-height: 217px;
   background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -447,18 +446,28 @@ span[class$="number"] {
 
 .filter-form {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   position: relative;
+  padding: 27px 71px 31px;
 }
 
-.filter fieldset {
+.filter-form fieldset {
   margin: 0;
-  padding: 23px 56px 0 0;
+  padding: 0;
   border: none;
 }
 
+.filter-form .filter-infra,
+.filter-form .filter-type {
+  padding: 25px 121px 0px 0;
+}
+
+.filter-form .filter-price {
+  padding: 0 0 0 226px;
+}
+
 .filter legend {
-  padding: 28px 0px 0px;
+  padding: 0 0 0 0;
   font-size: 16px;
   font-weight: bold;
 }
@@ -467,8 +476,6 @@ span[class$="number"] {
 .box-type {
   padding-left: 30px;
 }
-
-.box-infra {margin-right: -20px;}
 
 input[type="checkbox"] {
   display: none;
@@ -502,17 +509,17 @@ input[type="checkbox"]:checked + label::before {
 }
 
 .filter-price {
-  width: 330px;
+  width: 318px;
 }
 
-.price-header {
-  margin:0;
+.filter-price .price-header {
+  padding-bottom: 10px;
 }
 
 .price-choice {
   position: relative;
-  height: 37px;
-  margin-bottom: 20px;
+  height: 33px;
+  margin-bottom: 18px;
   border: 2px solid #ffffff;
   border-radius: 2px;
   font-size: 0;
@@ -548,12 +555,12 @@ input[type="checkbox"]:checked + label::before {
 .price-choice .price-from,
 .price-choice .price-to {
   width: 90px;
-  padding-left:65px;
+  padding-left: 63px;
 }
 
 .range-controls {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
 }
 
 .range-controls .scale {
@@ -570,7 +577,7 @@ input[type="checkbox"]:checked + label::before {
 
 .toggle {
   position: absolute;
-  top: -9px;
+  top: -8px;
   width: 4px;
   height: 4px;
 
@@ -596,7 +603,7 @@ input[type="checkbox"]:checked + label::before {
 
 .btn-show {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   padding: 6px 30px;
 
   font-size: 14px;
@@ -618,7 +625,7 @@ input[type="checkbox"]:checked + label::before {
 
 .found {
   display: flex;
-  min-height: 85px;
+  padding: 31px 72px 30px;
 }
 
 .found-header {
@@ -633,13 +640,18 @@ input[type="checkbox"]:checked + label::before {
 .sort-list {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 2px 0px 0px 42px;
+}
+
+.sort-list li {
+  padding-right: 33px;
 }
 
 .sort {
   margin: 0;
   font-size: 12px;
   line-height: 18px;
+  padding: 4px 0 0 48px;
 }
 
 .sort-item a{
@@ -668,6 +680,10 @@ input[type="checkbox"]:checked + label::before {
 
 .arrows {
   margin-left: auto;
+  padding-top: 3px;
+}
+.arrows-asc {
+  padding-right: 9px;
 }
 
 .arrows-asc:hover path {
@@ -743,6 +759,14 @@ input[type="checkbox"]:checked + label::before {
   text-align: center;
   background-color: #f2f2f2;
 } 
+
+.rate-star-unit {
+  background-image: url("..img/star.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+}
 
 .show a {
   border: 2px solid #ffffff;
