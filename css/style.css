@@ -626,7 +626,7 @@ input[type="checkbox"]:checked + label::before {
 
 .found {
   display: flex;
-  padding: 30px 72px 28px;
+  padding: 30px 72px 29px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -717,7 +717,7 @@ input[type="checkbox"]:checked + label::before {
 
 .hotels-card-unit {
   display: flex;
-  padding: 26px 72px 30px; 
+  padding: 26px 72px 29px; 
   border-bottom: 1px solid #e5e5e5; 
 } 
 
@@ -795,8 +795,8 @@ input[type="checkbox"]:checked + label::before {
 
 .rate-stars {
  display: flex;
+ margin-left: auto;
  padding-top: 4px;
- padding-left: 27px;
  margin-bottom: 41px;
 }
 
@@ -822,7 +822,7 @@ input[type="checkbox"]:checked + label::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 28px 0  35px; 
+  padding: 28px 0 35px; 
 }
 
 .footer-social {
@@ -861,6 +861,11 @@ input[type="checkbox"]:checked + label::before {
   background-color: #669ec0;
 }
 
+.social-btn-tw:active {
+  background-color: #5496bd;
+  opacity: 0.3;
+}
+
 .social-btn-fb {
   background-image: url("../img/fb-icon.svg");
   background-repeat: no-repeat;
@@ -869,6 +874,11 @@ input[type="checkbox"]:checked + label::before {
 
 .social-btn-fb:hover {
   background-color: #669ec0;
+}
+
+.social-btn-fb:active {
+  background-color: #5496bd;
+  opacity: 0.3;
 }
 
 .social-btn-yt {
