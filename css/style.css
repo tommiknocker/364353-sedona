@@ -338,7 +338,6 @@ span[class$="number"] {
 }
 
 .search-adult-child {
-  width: 50%;
   margin-bottom: 25px;
 }
 
@@ -377,7 +376,7 @@ span[class$="number"] {
 }
 
 .baby > label {
-  margin: 0 32px 0 54px;
+  margin: 0 34px 0 54px;
 }
 
 .search-button {
@@ -459,15 +458,16 @@ span[class$="number"] {
 
 .filter-form .filter-infra,
 .filter-form .filter-type {
-  padding: 25px 121px 0px 0;
+  padding-top:25px;
+  margin-right: 121px;
 }
 
 .filter-form .filter-price {
-  padding: 0 0 0 226px;
+  margin-left: auto;
 }
 
 .filter legend {
-  padding: 0 0 0 0;
+  padding: 0;
   font-size: 16px;
   font-weight: bold;
 }
@@ -475,6 +475,7 @@ span[class$="number"] {
 .box-infra,
 .box-type {
   padding-left: 30px;
+  margin-bottom: 25px;
 }
 
 input[type="checkbox"] {
@@ -485,7 +486,7 @@ input[type="checkbox"] + label {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  padding: 0 0 25px 10px;
+  padding-left: 10px;
 }
 
 input[type="checkbox"] + label::before {
@@ -603,8 +604,8 @@ input[type="checkbox"]:checked + label::before {
 
 .btn-show {
   display: block;
-  margin: 0 auto;
-  padding: 6px 30px;
+  margin-left: 86px;
+  padding: 6px 28px;
 
   font-size: 14px;
   line-height: 20px;
@@ -626,11 +627,12 @@ input[type="checkbox"]:checked + label::before {
 .found {
   display: flex;
   padding: 30px 72px 28px;
-  border-bottom: 2px solid #fcfcfc;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .found-header {
   margin: 0;
+  margin-right: 48px;
 }
 
 .major-header {
@@ -641,18 +643,20 @@ input[type="checkbox"]:checked + label::before {
 .sort-list {
   display: flex;
   margin: 0;
-  padding: 2px 0px 0px 42px;
+  padding: 0;
+  padding-top: 2px;
 }
 
 .sort-list li {
-  padding-right: 33px;
+  margin-right: 33px;
 }
 
 .sort {
   margin: 0;
+  margin-right: 42px;
   font-size: 12px;
   line-height: 18px;
-  padding: 4px 0 0 48px;
+  padding-top: 4px;
 }
 
 .sort-item a{
@@ -684,7 +688,7 @@ input[type="checkbox"]:checked + label::before {
   padding-top: 3px;
 }
 .arrows-asc {
-  padding-right: 9px;
+  margin-right: 9px;
 }
 
 .arrows-asc:hover path {
@@ -703,7 +707,8 @@ input[type="checkbox"]:checked + label::before {
   fill: #81b3d2;
 }
 
-.hotels-card {margin-bottom: 6px;
+.hotels-card {
+  margin-bottom: 6px;
 }
 
 .hotels-card-name a:hover {
@@ -713,26 +718,26 @@ input[type="checkbox"]:checked + label::before {
 .hotels-card-unit {
   display: flex;
   padding: 26px 72px 30px; 
-  border-bottom: 2px solid #fcfcfc; 
+  border-bottom: 1px solid #e5e5e5; 
 } 
 
 .hotels-card-pic {
   padding-top: 3px;
+  margin-right: 31px;
 }
 
 .hotels-card-name {
   margin: 0;
-  padding: 0 0 10px 31px;
+  margin-bottom: 10px;
 }
 
 .hotel-wrap {
   display: flex;
-  padding-left: 31px;
 }
 
 .hotel-wrap p {
   margin: 0;
-  padding-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .hotels-card-name a:active {
@@ -741,7 +746,7 @@ input[type="checkbox"]:checked + label::before {
 }
 
 .type-more {
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 .type-more a {
@@ -791,10 +796,10 @@ input[type="checkbox"]:checked + label::before {
 .rate-stars {
  display: flex;
  margin-left: auto;
+ margin-bottom: 43px;
 }
 
 .rate-star-unit {
-  margin: 0 0 43px 0;
   height: 23px;
   width: 23px;
   background-image: url("../img/star.svg");
