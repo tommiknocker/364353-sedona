@@ -273,12 +273,25 @@ span[class$="number"] {
 }
 
 .form {
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: center;  
   margin: 0;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
+}
+
+.search-form {
+  display: block;
+  padding: 55px;
+}
+.form-show {
+  display: none;
 }
 
 .search-adult-child {
@@ -307,10 +320,6 @@ span[class$="number"] {
 .button:active {
   color: #928a85;
   background-color: #503e33;  
-}
-
-.search-form {
-  padding: 55px;
 }
 
 .search-item {
@@ -525,6 +534,7 @@ input[type="checkbox"]:checked + label::before {
   border-radius: 2px;
   font-size: 0;
 }
+
 .price-choice::after {
   content: "";
   position: absolute;
@@ -572,7 +582,6 @@ input[type="checkbox"]:checked + label::before {
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
@@ -687,6 +696,7 @@ input[type="checkbox"]:checked + label::before {
   margin-left: auto;
   padding-top: 3px;
 }
+
 .arrows-asc {
   margin-right: 9px;
 }
