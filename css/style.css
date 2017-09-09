@@ -303,12 +303,7 @@ span[class$="number"] {
 
 .form {
 
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  background-color: #fff;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,15 +311,21 @@ span[class$="number"] {
       -ms-flex-pack: center;
           justify-content: center;  
   margin: 0;
-  -webkit-box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
-          box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
 }
 
 .search-form {
+  position: absolute;
   display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
+        box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
   padding: 55px 52px;
 }
 .form-show {
@@ -1043,7 +1044,6 @@ input[type="checkbox"]:checked + label::before {
 .website-copyright:active path {
   fill: #bdbbbc;
 }
-
 
 
 
