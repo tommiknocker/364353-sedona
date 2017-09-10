@@ -342,7 +342,7 @@ span[class$="number"] {
 }
 
 .button {
-  display: block;
+  display: inline-block;
   padding: 30px 140px;
   font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
@@ -673,7 +673,7 @@ input[type="checkbox"]:checked + label::before {
   display: block;
   margin-left: 86px;
   padding: 6px 28px;
-
+  font-family: inherit;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -892,11 +892,11 @@ input[type="checkbox"]:checked + label::before {
  -webkit-box-direction: reverse;
      -ms-flex-direction: row-reverse;
          flex-direction: row-reverse;
- margin-left: 37px;
  text-align: right;
  padding-top: 4px;
  margin-bottom: 41px;
 }
+
 
 .rate-star-unit {
   height: 23px;
@@ -916,7 +916,16 @@ input[type="checkbox"]:checked + label::before {
   outline: none;
 }
 
+.footer-outter {
+  position: relative;
+}
+
 .main-footer {
+  position: absolute;
+    bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+  bottom: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -926,7 +935,7 @@ input[type="checkbox"]:checked + label::before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 28px 0 35px; 
+  padding: 35px 0; 
 }
 
 .footer-social {
