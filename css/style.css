@@ -19,7 +19,7 @@ a {
   margin: 0 auto;
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
-          box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
+  box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
 }
 
 .main-navigation {
@@ -30,8 +30,8 @@ a {
   z-index: 1;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .main-list,
@@ -47,10 +47,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .main-list li {
@@ -82,13 +82,13 @@ a {
 }
 .main-list a:focus,
 .main-list a:hover {
-   color: #81b3d2;
-   outline: none;
+  color: #81b3d2;
+  outline: none;
 }
 
 .main-list a:active {
-   color: #000000;
-   opacity: 0.3;
+  color: #000000;
+  opacity: 0.3;
 }
 
 .hero-section {
@@ -98,8 +98,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 
   min-height: 432px;
   padding-top: 76px;
@@ -185,8 +185,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -212,11 +212,11 @@ span[class$="number"] {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -226,8 +226,8 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 0;
   text-align: center;
 }
@@ -267,7 +267,7 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-align: center;
   background-color: #f2f2f2;
 }
@@ -303,14 +303,13 @@ span[class$="number"] {
 }
 
 .form {
-
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 0;
   font-size: 14px;
   line-height: 26px;
@@ -322,11 +321,11 @@ span[class$="number"] {
   display: block;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   background-color: #fff;
   -webkit-box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
-        box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
+  box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
   padding: 55px 52px;
 }
 .form-show {
@@ -338,8 +337,8 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .button {
@@ -372,8 +371,8 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 0 30px 0;
 }
 
@@ -387,7 +386,7 @@ span[class$="number"] {
   width: 21px;
   height: 22px;
   -webkit-mask-image: url("../img/calendar.svg");
-          mask-image: url("../img/calendar.svg");
+  mask-image: url("../img/calendar.svg");
   font-size: 0;
   background-color: #cacaca;
 }
@@ -412,7 +411,7 @@ span[class$="number"] {
   text-transform: uppercase;
   background-color: #f2f2f2;
   border: none;
- }
+}
 
 .search-item input:hover {
   background-color: #ebebeb;
@@ -422,7 +421,7 @@ span[class$="number"] {
   background-color: #ffffff;
   outline: none;
   -webkit-box-shadow: inset 0 0 0 2px #e5e5e5;
-          box-shadow: inset 0 0 0 2px #e5e5e5;;
+  box-shadow: inset 0 0 0 2px #e5e5e5;;
 }
 
 .search-item > input {
@@ -433,7 +432,7 @@ span[class$="number"] {
 .search-item label {
   margin: 0 22px 0 3px;
   padding: 0;
- }
+}
 
 .grownups > label {
   margin: 0 46px 0px 0px;
@@ -496,15 +495,15 @@ span[class$="number"] {
 }
 
 .find:hover {
-   background-color: #669ec0;
- }
+  background-color: #669ec0;
+}
 
 .find:active {
   color:#94b9d2;
 }
 
 .filter {
-  background-color: #d4d2d2;
+  background-color: #6287ad;
   background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -515,8 +514,8 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   position: relative;
   padding: 27px 71px 7px;
 }
@@ -545,12 +544,12 @@ span[class$="number"] {
 
 .box-infra,
 .box-type {
-  padding-left: 30px;
+  padding-left: 14px;
   margin-bottom: 25px;
 }
 
 .hotel-checkbox {
-  display: none;
+  opacity: 0;
 }
 
 .hotel-checkbox + label {
@@ -564,36 +563,40 @@ span[class$="number"] {
   content: "";
   position: absolute;
   display: block;
-  top: 0px;
+  top: -1px;
   left: -30px;
-  width: 27px;
-  height: 27px;
-  background-image: url("../img/checkbox-off.svg");
+  width: 23px;
+  height: 23px;
+  -webkit-mask-image: url("../img/checkbox-off.svg");
+  mask-image: url("../img/checkbox-off.svg");
+  background-color: #ffffff;
   background-repeat: no-repeat;
+}
+
+.hotel-checkbox:focus + label::before,
+.hotel-checkbox:checked:focus + label::before {
+  background-color: #ffffff;
+  opacity: 0.3;
 }
 
 .hotel-checkbox:checked + label::before {
-  content: "";
-  position: absolute;
-  display: block;
-  background-image: url("../img/checkbox-on.svg");
-  background-repeat: no-repeat;
+  width: 27px;
+  -webkit-mask-image: url("../img/checkbox-on.svg");
+  mask-image: url("../img/checkbox-on.svg");
+  background-color: #ffffff;
+  opacity: 1;
 }
+
 .hotel-checkbox:disabled + label::before {
-  content: "";
-  position: absolute;
-  display: block;
-   -webkit-mask-image: url("../img/checkbox-off.svg");
-          mask-image: url("../img/checkbox-off.svg");
-  background-color: #6a6a6a;
-  background-repeat: no-repeat;
+  -webkit-mask-image: url("../img/checkbox-off.svg");
+  mask-image: url("../img/checkbox-off.svg");
+  background-color: #000000;
+  opacity: 0.3;
 }
 
 .hotel-checkbox:checked:disabled + label::before {
-   -webkit-mask-image: url("../img/checkbox-on.svg");
-          mask-image: url("../img/checkbox-on.svg");
-  background-color: #6a6a6a;
-  background-repeat: no-repeat;
+  -webkit-mask-image: url("../img/checkbox-on.svg");
+  mask-image: url("../img/checkbox-on.svg");
 }
 
 .filter-price {
@@ -622,8 +625,8 @@ span[class$="number"] {
   height: 22px;
   background: #ffffff;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .price-choice label {
@@ -670,12 +673,11 @@ span[class$="number"] {
   top: -9px;
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-          box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
 }
 
@@ -700,7 +702,6 @@ span[class$="number"] {
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -708,7 +709,7 @@ span[class$="number"] {
   cursor: pointer;
 }
 
-.btn-show:hover { 
+.btn-show:hover {
   color: #000000;
   background: #ffffff;
 }
@@ -717,6 +718,7 @@ span[class$="number"] {
   color: #000000;
   background: #ffffff;
 }
+
 .found {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -765,9 +767,9 @@ span[class$="number"] {
 }
 
 .sort-item a:hover {
-   color:#81b3d2;
-   border-bottom: 1px dotted #81b3d2;
-   opacity: 1;
+  color:#81b3d2;
+  border-bottom: 1px dotted #81b3d2;
+  opacity: 1;
 }
 
 .sort-item a:focus {
@@ -777,8 +779,8 @@ span[class$="number"] {
 }
 
 .sort-item a:active {
-   color: #000000;
-   border: none;
+  color: #000000;
+  border: none;
 }
 
 .sort-link-active a {
@@ -878,7 +880,6 @@ span[class$="number"] {
 
 .type-more a:active {
   color: #91b7d1;
-
   background-color:#5496bd;
 }
 
@@ -893,7 +894,6 @@ span[class$="number"] {
 
 .price-book a:active {
   color: #928a85;
-
   background-color:#503e33;
 }
 
@@ -911,24 +911,23 @@ span[class$="number"] {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-left: auto;
 }
 
 .rate-stars {
- display: -webkit-box;
- display: -ms-flexbox;
- display: flex;
- -webkit-box-orient: horizontal;
- -webkit-box-direction: reverse;
-     -ms-flex-direction: row-reverse;
-         flex-direction: row-reverse;
- text-align: right;
- padding-top: 4px;
- margin-bottom: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  text-align: right;
+  padding-top: 4px;
+  margin-bottom: 41px;
 }
-
 
 .rate-star-unit {
   height: 23px;
@@ -948,24 +947,30 @@ span[class$="number"] {
   outline: none;
 }
 
+.map {
+  background-image: url(../img/map.jpg);
+  background-size: 1200px 593px;
+  background-repeat: no-repeat;
+}
+
 .footer-outter {
   position: relative;
 }
 
 .main-footer {
   position: absolute;
-    bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 100%;
+  bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 35px 0;
 }
 
@@ -979,11 +984,11 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 33.33%;
   margin: 0;
   padding: 0;
@@ -1002,11 +1007,11 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
@@ -1062,11 +1067,11 @@ span[class$="number"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 33.3%;
 }
 
@@ -1080,7 +1085,7 @@ span[class$="number"] {
 }
 
 .website-copyright {
- padding-top: 5px;
+  padding-top: 5px;
 }
 
 .website-copyright:hover path {
