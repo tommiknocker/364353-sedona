@@ -103,7 +103,7 @@ a {
 
   min-height: 432px;
   padding-top: 76px;
-  background-color: #d4d2d2;
+  background-color: #87a2c5;
   background-image: url("../img/background-sedona.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -343,7 +343,7 @@ span[class$="number"] {
 
 .button {
   display: inline-block;
-  padding: 30px 140px;
+  padding: 30px 139px;
   font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   color: #ffffff;
@@ -557,6 +557,10 @@ span[class$="number"] {
   display: inline-block;
   vertical-align: top;
   padding-left: 10px;
+}
+
+.hotel-checkbox:disabled + label{
+color: rgba(0, 0, 0, 0.3);
 }
 
 .hotel-checkbox + label::before {
@@ -1094,4 +1098,19 @@ span[class$="number"] {
 
 .website-copyright:active path {
   fill: #bdbbbc;
+}
+
+.search-form {
+  animation-name: slideInDown;
+  animation-duration: 2s;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(-284px,-500px,0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(-284px,0,0);
+  }
 }
